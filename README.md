@@ -1,5 +1,4 @@
 # Complexphase
-# Complexphase
 
 This directory contains simulation code and visualizations related to the time evolution of geometric and internal phase connections, denoted as \( A(\alpha) \) and \( A(\beta) \), respectively. These simulations support the theoretical framework presented in the manuscript and illustrate dynamic behaviors such as holonomy, phase accumulation, and spike-based encoding.
 
