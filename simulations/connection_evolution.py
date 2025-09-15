@@ -8,7 +8,7 @@ real and imaginary components plotted over time.
 
 import numpy as np
 import matplotlib.pyplot as plt
-if __name__ == "__main__":
+
    
 t_max = 10
 resolution = 1000
@@ -17,6 +17,7 @@ t = np.linspace(0, t_max, resolution)
 A_alpha = np.sin(t) + 1j * np.cos(t)         # Geometric connection
 A_beta = np.exp(1j * t)                      # Internal connection
 
+if __name__ == "__main__":
 plt.plot(t, A_alpha.real, label='Re[A(α)]')
 plt.plot(t, A_alpha.imag, label='Im[A(α)]')
 plt.plot(t, A_beta.real, label='Re[A(β)]', linestyle='--')
