@@ -2,8 +2,8 @@
   Simulates the time evolution of A(α) and A(β) using complex-valued functions. Outputs a plot saved as `connection_evolution.png` in the `figures/` folder.
 
    'spike_trains.py'
-Generates a raster plot of spike trains,"spike_train_raster.png" in "figures" directory, across neurons,
-illustrating how phase information can be encoded in spike timing
+  Generates a raster plot of spike trains,"spike_train_raster.png" in "figures" directory, across neurons,
+  illustrating how phase information can be encoded in spike timing
 
 - `holonomy_simulation.py`  
   Simulates parallel transport of a vector around a loop in curved space. Demonstrates holonomy as the net rotation of the vector due to curvature.
